@@ -6,7 +6,6 @@ class Database
     private static $dbName = "burger_code";
     private static $dbUsername = "root";
     private static $dbUserpassword = "root";
-    
     private static $connection = null;
     
     public static function connect()
